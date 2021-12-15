@@ -1,3 +1,7 @@
+0.08 2021-12-15T03:21:43+01:00
+ - Comment request_required_params() method in
+   LWP::Authen::OAuth2::ServiceProvider::MediaWiki, default is ok.
+
 0.07 2021-12-15T03:15:23+01:00
  - Back changes in LWP::Authen::OAuth2::ServiceProvider::MediaWiki.
 
