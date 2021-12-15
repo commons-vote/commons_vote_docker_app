@@ -1,3 +1,7 @@
+0.04 2021-12-15T02:20:33+01:00
+ - Rewrite scope to optional in Plack::Middleware::Auth::OAuth2.
+ - Remove scope from setting.
+
 0.03 2021-12-15T02:13:05+01:00
  - Fix scope (only email).
 
