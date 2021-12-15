@@ -1,3 +1,6 @@
+0.07 2021-12-15T03:15:23+01:00
+ - Back changes in LWP::Authen::OAuth2::ServiceProvider::MediaWiki.
+
 0.06 2021-12-15T03:01:50+01:00
  - Update parameters in LWP::Authen::OAuth2::ServiceProvider::MediaWiki.
 
