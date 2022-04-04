@@ -1,3 +1,5 @@
+0.10
+
 0.09 2021-12-15T03:29:24+01:00
  - Comment refresh_required_params() method in
    LWP::Authen::OAuth2::ServiceProvider::MediaWiki, default is ok.

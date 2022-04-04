@@ -12,6 +12,8 @@ use Plack::Middleware::Auth::OAuth2;
 use Readonly;
 use Tags::Output::Raw;
 
+our $VERSION = 0.10;
+
 if (! exists $ENV{'CLIENT_ID'}) {
 	err "Environment variable 'CLIENT_ID' is missing.";
 }
@@ -36,6 +38,6 @@ builder {
 		'client_secret' => $ENV{'CLIENT_SECRET'},
 		'redirect_path' => 'oauth2_code',
 		'service_provider' => 'MediaWiki',
-		;
+	;
 	$app;
 };
