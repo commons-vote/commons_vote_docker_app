@@ -1,6 +1,7 @@
 0.10
  - Add new implementation of
    LWP::Authen::OAuth2::ServiceProvider::MediaWiki/Wikimedia.
+ - New version of Plack::App::OAuth2::Info.
  - Plack::Component::Tags::HTML from CPAN.
 
 0.09 2021-12-15T03:29:24+01:00
