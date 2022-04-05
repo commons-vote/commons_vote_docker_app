@@ -1,4 +1,4 @@
-0.13
+0.13 2022-04-05T02:47:48+02:00
  - Fix Plack::App::OAuth2::Info (processing of Wikimedia provider).
 
 0.12 2022-04-05T02:37:15+02:00
