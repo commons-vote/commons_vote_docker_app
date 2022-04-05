@@ -1,3 +1,5 @@
+0.11
+
 0.10 2022-04-05T02:11:36+02:00
  - Add new implementation of
    LWP::Authen::OAuth2::ServiceProvider::MediaWiki/Wikimedia.
