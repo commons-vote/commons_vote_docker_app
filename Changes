@@ -1,4 +1,5 @@
 0.26
+ - New version of Plack::App::OAuth2::Info (set boolean values).
 
 0.25 2022-04-05T14:53:00+02:00
  - New version of Plack::App::OAuth2::Info (set boolean values).
