@@ -1,4 +1,4 @@
-FROM debian:buster
+FROM debian:bullseye
 
 ARG CLIENT_ID
 ARG CLIENT_SECRET
