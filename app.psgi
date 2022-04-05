@@ -12,7 +12,7 @@ use Plack::Middleware::Auth::OAuth2;
 use Readonly;
 use Tags::Output::Raw;
 
-our $VERSION = 0.25;
+our $VERSION = 0.26;
 
 if (! exists $ENV{'CLIENT_ID'}) {
 	err "Environment variable 'CLIENT_ID' is missing.";
