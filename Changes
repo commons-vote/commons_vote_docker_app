@@ -1,4 +1,4 @@
-0.20
+0.20 2022-04-05T14:03:18+02:00
  - New version of Plack::App::OAuth2::Info (Better JSON::XS object).
 
 0.19 2022-04-05T13:51:40+02:00
