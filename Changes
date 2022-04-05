@@ -1,4 +1,4 @@
-0.11
+0.11 2022-04-05T02:20:54+02:00
  - New version of Plack::Middleware::Auth::OAuth2.
 
 0.10 2022-04-05T02:11:36+02:00
