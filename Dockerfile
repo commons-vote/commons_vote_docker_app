@@ -27,7 +27,8 @@ RUN mkdir /perl_modules
 COPY perl_modules/ /perl_modules
 RUN cpanm perl_modules/Plack-Middleware-Auth-OAuth2-0.01.tar.gz
 RUN cpanm perl_modules/Plack-App-OAuth2-Info-0.01.tar.gz
-RUN cpanm --force perl_modules/LWP-Authen-OAuth2-ServiceProvider-MediaWiki-0.01.tar.gz
+RUN cpanm perl_modules/LWP-Authen-OAuth2-ServiceProvider-MediaWiki-0.01.tar.gz
+RUN cpanm perl_modules/LWP-Authen-OAuth2-ServiceProvider-Wikimedia-0.01.tar.gz
 
 COPY app.psgi /
 RUN mkdir /web_root

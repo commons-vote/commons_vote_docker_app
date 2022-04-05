@@ -37,7 +37,7 @@ builder {
 		'client_id' => $ENV{'CLIENT_ID'},
 		'client_secret' => $ENV{'CLIENT_SECRET'},
 		'redirect_path' => 'oauth2_code',
-		'service_provider' => 'MediaWiki',
+		'service_provider' => 'Wikimedia',
 	;
 	$app;
 };
