@@ -1,4 +1,5 @@
 0.10
+ - Plack::Component::Tags::HTML from CPAN.
 
 0.09 2021-12-15T03:29:24+01:00
  - Comment refresh_required_params() method in
