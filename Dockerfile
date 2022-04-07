@@ -23,16 +23,15 @@ RUN apt-get install -y libcapture-tiny-perl
 RUN cpanm Error::Pure
 RUN cpanm LWP::Authen::OAuth2
 RUN cpanm Plack::App::Login
+RUN cpanm Plack::App::Data::Printer
 RUN cpanm Plack::Component::Tags::HTML
 RUN cpanm Tags::Output::Raw
+RUN cpanm LWP::Authen::OAuth2::ServiceProvider::Wikimedia
 RUN mkdir /perl_modules
 COPY perl_modules/ /perl_modules
-RUN cpanm perl_modules/Plack-App-Data-Printer-0.01.tar.gz
 RUN cpanm perl_modules/Tags-HTML-OAuth2-Info-0.01.tar.gz
 RUN cpanm perl_modules/Plack-Middleware-Auth-OAuth2-0.01.tar.gz
 RUN cpanm perl_modules/Plack-App-OAuth2-Info-0.01.tar.gz
-RUN cpanm perl_modules/LWP-Authen-OAuth2-ServiceProvider-MediaWiki-0.01.tar.gz
-RUN cpanm perl_modules/LWP-Authen-OAuth2-ServiceProvider-Wikimedia-0.01.tar.gz
 
 COPY app.psgi /
 RUN mkdir /web_root
