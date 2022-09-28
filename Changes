@@ -1,4 +1,5 @@
 0.28
+ - Install LWP::Authen::OAuth2 from Debian.
  - Move modules to CPAN.
 
 0.27 2022-04-05T19:13:14+02:00

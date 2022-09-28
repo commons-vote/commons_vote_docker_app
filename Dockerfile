@@ -20,8 +20,8 @@ RUN apt-get install -y libreadonly-perl
 RUN apt-get install -y libjson-perl
 RUN apt-get install -y libtest-nowarnings-perl
 RUN apt-get install -y libcapture-tiny-perl
+RUN apt-get install -y liblwp-authen-oauth2-perl
 RUN cpanm Error::Pure
-RUN cpanm LWP::Authen::OAuth2
 RUN cpanm Plack::App::Login
 RUN cpanm Plack::App::Data::Printer
 RUN cpanm Plack::Component::Tags::HTML
