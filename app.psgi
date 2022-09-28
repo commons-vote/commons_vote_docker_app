@@ -4,40 +4,76 @@ use strict;
 use warnings;
 
 use Error::Pure qw(err);
-use Plack::App::OAuth2::Info;
+use Plack::App::Commons::Vote;
 use Plack::App::Login;
 use Plack::Builder;
 use Plack::Middleware::Session;
 use Plack::Middleware::Auth::OAuth2;
 use Readonly;
+use Schema::Commons::Vote;
 use Tags::Output::Raw;
 
 our $VERSION = 0.28;
 
-if (! exists $ENV{'CLIENT_ID'}) {
-	err "Environment variable 'CLIENT_ID' is missing.";
+my $debug = $ENV{'DEBUG'} || 0;
+
+#if (! exists $ENV{'CLIENT_ID'}) {
+#	err "Environment variable 'CLIENT_ID' is missing.";
+#}
+#if (! exists $ENV{'CLIENT_SECRET'}) {
+#	err "Environment variable 'CLIENT_SECRET' is missing.";
+#}
+
+# XXX Provisional
+if (! exists $ENV{'DB_FILE'}) {
+	err "Environment variable 'DB_FILE' is missing.";
 }
-if (! exists $ENV{'CLIENT_SECRET'}) {
-	err "Environment variable 'CLIENT_SECRET' is missing.";
+my $schema = Schema::Commons::Vote->new->schema->connect('dbi:SQLite:dbname='.$ENV{'DB_FILE'}, '', '');
+my $backend = Backend::DB::Commons::Vote->new(
+	'schema' => $schema,
+);
+my ($css, $tags);
+my %tags = (
+	'no_simple' => ['textarea'],
+	'preserved' => ['pre', 'style', 'textarea'],
+	'xml' => 1,
+);
+if ($debug) {
+	require CSS::Struct::Output::Indent;
+	$css = CSS::Struct::Output::Indent->new;
+	require Tags::Output::Indent;
+	$tags = Tags::Output::Indent->new(%tags);
+} else {
+	require CSS::Struct::Output::Raw;
+	$css = CSS::Struct::Output::Raw->new;
+	require Tags::Output::Raw;
+	$tags = Tags::Output::Raw->new(%tags);
 }
 
-my $app = Plack::App::OAuth2::Info->new;
+my $app = Plack::App::Commons::Vote->new(
+	'css' => $css,
+	'backend' => $backend,
+	'lang' => 'ces',
+	'schema' => $schema,
+	'tags' => $tags,
+	'title' => 'Commons Vote',
+)->to_app;
 
 builder {
 	enable 'Session';
-	enable 'Auth::OAuth2',
-		'app_login' => Plack::App::Login->new(
-			'tags' => Tags::Output::Raw->new,
-		),
-		'app_login_url' => sub {
-			my ($app_login, $url) = @_;
-			$app_login->login_link($url);
-			return;
-		},
-		'client_id' => $ENV{'CLIENT_ID'},
-		'client_secret' => $ENV{'CLIENT_SECRET'},
-		'redirect_path' => 'oauth2_code',
-		'service_provider' => 'Wikimedia',
-	;
+#	enable 'Auth::OAuth2',
+#		'app_login' => Plack::App::Login->new(
+#			'tags' => Tags::Output::Raw->new,
+#		),
+#		'app_login_url' => sub {
+#			my ($app_login, $url) = @_;
+#			$app_login->login_link($url);
+#			return;
+#		},
+#		'client_id' => $ENV{'CLIENT_ID'},
+#		'client_secret' => $ENV{'CLIENT_SECRET'},
+#		'redirect_path' => 'oauth2_code',
+#		'service_provider' => 'Wikimedia',
+#	;
 	$app;
 };

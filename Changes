@@ -1,4 +1,5 @@
 0.28
+ - Deliver main application.
  - Install LWP::Authen::OAuth2 from Debian.
  - Move modules to CPAN.
 
