@@ -9,12 +9,14 @@ RUN apt-get update
 RUN apt-get install -y make
 RUN apt-get install -y cpanminus
 RUN apt-get install -y libcapture-tiny-perl
-RUN apt-get install -y libdatetime-format-strptime-perl
-RUN apt-get install -y libdatetime-perl
+RUN apt-get install -y libdata-formvalidator-perl
 
 # XXX provisional
-RUN apt-get install -y libdbd-sqlite2-perl
-
+RUN apt-get install -y libdata-printer-perl
+RUN apt-get install -y libdatetime-format-strptime-perl
+RUN apt-get install -y libdatetime-perl
+RUN apt-get install -y libdbd-mariadb-perl
+RUN apt-get install -y libdbd-sqlite3-perl
 RUN apt-get install -y libdbi-perl
 RUN apt-get install -y libdbix-class-perl
 RUN apt-get install -y libclone-perl
@@ -23,6 +25,7 @@ RUN apt-get install -y libfile-share-perl
 RUN apt-get install -y libio-captureoutput-perl
 RUN apt-get install -y libio-string-perl
 RUN apt-get install -y liblwp-authen-oauth2-perl
+RUN apt-get install -y libmediawiki-api-perl
 RUN apt-get install -y libnet-oauth-perl
 RUN apt-get install -y libperl6-slurp-perl
 RUN apt-get install -y libplack-middleware-session-perl
@@ -58,6 +61,11 @@ RUN cpanm perl_modules/Data-Commons-Vote-0.01.tar.gz
 RUN cpanm perl_modules/Tags-HTML-Commons-Vote-0.01.tar.gz
 RUN cpanm perl_modules/Tags-HTML-Image-Grid-0.01.tar.gz
 RUN cpanm perl_modules/Tags-HTML-Login-Register-0.01.tar.gz
+RUN cpanm perl_modules/Commons-Vote-Fetcher-0.01.tar.gz
+RUN cpanm perl_modules/Backend-DB-0.01.tar.gz
+RUN cpanm perl_modules/Backend-DB-Commons-Vote-0.01.tar.gz
+RUN cpanm perl_modules/Activity-Commons-Vote-0.01.tar.gz
+RUN cpanm perl_modules/Plack-App-Commons-Vote-0.01.tar.gz
 
 COPY app.psgi /
 RUN mkdir /web_root

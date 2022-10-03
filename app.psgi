@@ -17,17 +17,13 @@ our $VERSION = 0.28;
 
 my $debug = $ENV{'DEBUG'} || 0;
 
-#if (! exists $ENV{'CLIENT_ID'}) {
-#	err "Environment variable 'CLIENT_ID' is missing.";
-#}
-#if (! exists $ENV{'CLIENT_SECRET'}) {
-#	err "Environment variable 'CLIENT_SECRET' is missing.";
-#}
-
-# XXX Provisional
-if (! exists $ENV{'DB_FILE'}) {
-	err "Environment variable 'DB_FILE' is missing.";
+if (! exists $ENV{'CLIENT_ID'}) {
+	err "Environment variable 'CLIENT_ID' is missing.";
 }
+if (! exists $ENV{'CLIENT_SECRET'}) {
+	err "Environment variable 'CLIENT_SECRET' is missing.";
+}
+
 my $schema = Schema::Commons::Vote->new->schema->connect('dbi:SQLite:dbname='.$ENV{'DB_FILE'}, '', '');
 my $backend = Backend::DB::Commons::Vote->new(
 	'schema' => $schema,
@@ -61,19 +57,19 @@ my $app = Plack::App::Commons::Vote->new(
 
 builder {
 	enable 'Session';
-#	enable 'Auth::OAuth2',
-#		'app_login' => Plack::App::Login->new(
-#			'tags' => Tags::Output::Raw->new,
-#		),
-#		'app_login_url' => sub {
-#			my ($app_login, $url) = @_;
-#			$app_login->login_link($url);
-#			return;
-#		},
-#		'client_id' => $ENV{'CLIENT_ID'},
-#		'client_secret' => $ENV{'CLIENT_SECRET'},
-#		'redirect_path' => 'oauth2_code',
-#		'service_provider' => 'Wikimedia',
-#	;
+	enable 'Auth::OAuth2',
+		'app_login' => Plack::App::Login->new(
+			'tags' => Tags::Output::Raw->new,
+		),
+		'app_login_url' => sub {
+			my ($app_login, $url) = @_;
+			$app_login->login_link($url);
+			return;
+		},
+		'client_id' => $ENV{'CLIENT_ID'},
+		'client_secret' => $ENV{'CLIENT_SECRET'},
+		'redirect_path' => 'oauth2_code',
+		'service_provider' => 'Wikimedia',
+	;
 	$app;
 };
