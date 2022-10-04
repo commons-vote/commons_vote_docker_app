@@ -24,8 +24,12 @@ if (! exists $ENV{'CLIENT_SECRET'}) {
 	err "Environment variable 'CLIENT_SECRET' is missing.";
 }
 
+my $dsn = 'dbi:Pg:dbname='.$ENV{'DB_NAME'};
+if (defined $ENV{'DB_HOST'}) {
+	$dsn .= ';host='.$ENV{'DB_HOST'};
+}
 my $schema = Schema::Commons::Vote->new->schema->connect(
-	'dbi:Pg:dbname='.$ENV{'DB_NAME'},
+	$dsn,
 	$ENV{'DB_USER'} || '',
 	$ENV{'DB_PASS'} || '',
 );

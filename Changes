@@ -1,4 +1,5 @@
 0.29
+ - Improve DSN for postreSQL.
 
 0.28 2022-10-04T21:01:03+02:00
  - Deliver main application.
