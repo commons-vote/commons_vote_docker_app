@@ -1,3 +1,5 @@
+0.29
+
 0.28 2022-10-04T21:01:03+02:00
  - Deliver main application.
  - Install LWP::Authen::OAuth2 from Debian.
