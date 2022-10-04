@@ -1,4 +1,4 @@
-0.28
+0.28 2022-10-04T21:01:03+02:00
  - Deliver main application.
  - Install LWP::Authen::OAuth2 from Debian.
  - Move modules to CPAN.
