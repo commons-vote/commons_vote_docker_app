@@ -67,6 +67,7 @@ builder {
 	enable 'Session';
 	enable 'Auth::OAuth2',
 		'app_login' => Plack::App::Login->new(
+			'login_title' => 'Login with OAuth2',
 			'tags' => Tags::Output::Raw->new,
 		),
 		'app_login_url' => sub {
