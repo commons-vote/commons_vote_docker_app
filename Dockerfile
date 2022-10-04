@@ -2,6 +2,9 @@ FROM debian:bullseye
 
 ARG CLIENT_ID
 ARG CLIENT_SECRET
+ARG DB_NAME
+ARG DB_USER
+ARG DB_PASS
 
 ENV DEBUG=0
 
@@ -15,7 +18,7 @@ RUN apt-get install -y libdata-formvalidator-perl
 RUN apt-get install -y libdata-printer-perl
 RUN apt-get install -y libdatetime-format-strptime-perl
 RUN apt-get install -y libdatetime-perl
-RUN apt-get install -y libdbd-mariadb-perl
+RUN apt-get install -y libdbd-pg-perl
 RUN apt-get install -y libdbd-sqlite3-perl
 RUN apt-get install -y libdbi-perl
 RUN apt-get install -y libdbix-class-perl

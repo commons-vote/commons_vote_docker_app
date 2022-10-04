@@ -2,6 +2,7 @@
  - Deliver main application.
  - Install LWP::Authen::OAuth2 from Debian.
  - Move modules to CPAN.
+ - Rewrite to PostgreSQL.
 
 0.27 2022-04-05T19:13:14+02:00
  - New version of Plack::App::OAuth2::Info (set boolean values).

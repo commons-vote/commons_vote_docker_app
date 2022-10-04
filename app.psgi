@@ -24,7 +24,11 @@ if (! exists $ENV{'CLIENT_SECRET'}) {
 	err "Environment variable 'CLIENT_SECRET' is missing.";
 }
 
-my $schema = Schema::Commons::Vote->new->schema->connect('dbi:SQLite:dbname='.$ENV{'DB_FILE'}, '', '');
+my $schema = Schema::Commons::Vote->new->schema->connect(
+	'dbi:Pg:dbname='.$ENV{'DB_NAME'},
+	$ENV{'DB_USER'} || '',
+	$ENV{'DB_PASS'} || '',
+);
 my $backend = Backend::DB::Commons::Vote->new(
 	'schema' => $schema,
 );
