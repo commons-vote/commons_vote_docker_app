@@ -16,6 +16,7 @@ RUN apt-get install -y libdata-formvalidator-perl
 
 # XXX provisional
 RUN apt-get install -y libdata-printer-perl
+RUN apt-get install -y libdatetime-format-pg-perl
 RUN apt-get install -y libdatetime-format-strptime-perl
 RUN apt-get install -y libdatetime-perl
 RUN apt-get install -y libdbd-pg-perl
