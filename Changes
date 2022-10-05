@@ -8,6 +8,7 @@
  - Fix UTF8 encoding for data object of image.
  - Fix UTF8 in competition save.
  - Fix UTF8 in section logo.
+ - Fix update of competition.
  - If user from meta doesn't exist, create.
  - Implement endpoing for removing of section.
  - Implement low level backend DB helper for deleting of section.
