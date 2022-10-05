@@ -4,6 +4,7 @@
  - Add captions for logos in competition and improve design.
  - Add link on logo image to main page.
  - Add low level method for update competition.
+ - Add low level method for update section.
  - Fix input field in SectionForm to number type.
  - Fix oauth2 profile.
  - Fix UTF8 encoding for data object of image.
