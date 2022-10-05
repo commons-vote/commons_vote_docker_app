@@ -6,6 +6,7 @@
  - Fix UTF8 in section logo.
  - If user from meta doesn't exist, create.
  - Implement endpoing for removing of section.
+ - Implement low level backend DB helper for deleting of section.
  - Improve section page logo.
  - Rewrite competition logos to thumbs.
 
