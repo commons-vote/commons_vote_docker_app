@@ -1,4 +1,5 @@
 0.32
+ - Add 'logo_url' parameter to Menu helper.
  - Add button for removing of section in section page.
  - Add captions for logos in competition and improve design.
  - Fix input field in SectionForm to number type.
