@@ -4,6 +4,7 @@
  - Fix UTF8 in competition save.
  - Fix UTF8 in section logo.
  - If user from meta doesn't exist, create.
+ - Rewrite competition logos to thumbs.
 
 0.31 2022-10-05T03:11:03+02:00
  - Change login button title to better.
