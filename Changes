@@ -5,6 +5,7 @@
  - Add link on logo image to main page.
  - Add low level method for update competition.
  - Add low level method for update section.
+ - Add section_id to section form for update.
  - Fix input field in SectionForm to number type.
  - Fix oauth2 profile.
  - Fix UTF8 encoding for data object of image.
