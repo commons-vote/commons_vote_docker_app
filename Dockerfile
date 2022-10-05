@@ -28,6 +28,7 @@ RUN apt-get install -y libdigest-sha-perl
 RUN apt-get install -y libfile-share-perl
 RUN apt-get install -y libio-captureoutput-perl
 RUN apt-get install -y libio-string-perl
+RUN apt-get install -y libjson-xs-perl
 RUN apt-get install -y liblwp-authen-oauth2-perl
 RUN apt-get install -y libmediawiki-api-perl
 RUN apt-get install -y libnet-oauth-perl
@@ -69,6 +70,8 @@ RUN cpanm perl_modules/Commons-Vote-Fetcher-0.01.tar.gz
 RUN cpanm perl_modules/Backend-DB-0.01.tar.gz
 RUN cpanm perl_modules/Backend-DB-Commons-Vote-0.01.tar.gz
 RUN cpanm perl_modules/Activity-Commons-Vote-0.01.tar.gz
+RUN cpanm perl_modules/Tags-HTML-Container-0.01.tar.gz
+RUN cpanm perl_modules/Plack-App-Restricted-0.01.tar.gz
 RUN cpanm perl_modules/Plack-App-Commons-Vote-0.01.tar.gz
 
 COPY app.psgi /
