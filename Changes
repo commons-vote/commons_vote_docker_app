@@ -1,4 +1,5 @@
 0.32
+ - Add captions for logos in competition and improve design.
  - Fix input field in SectionForm to number type.
  - Fix oauth2 profile.
  - Fix UTF8 in competition save.
