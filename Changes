@@ -1,5 +1,6 @@
 0.32
  - Fix input field in SectionForm to number type.
+ - Fix oauth2 profile.
 
 0.31 2022-10-05T03:11:03+02:00
  - Change login button title to better.
