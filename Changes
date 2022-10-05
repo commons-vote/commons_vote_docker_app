@@ -5,6 +5,7 @@
  - Add link on logo image to main page.
  - Fix input field in SectionForm to number type.
  - Fix oauth2 profile.
+ - Fix UTF8 encoding for data object of image.
  - Fix UTF8 in competition save.
  - Fix UTF8 in section logo.
  - If user from meta doesn't exist, create.
