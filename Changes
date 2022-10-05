@@ -1,6 +1,7 @@
 0.32
  - Fix input field in SectionForm to number type.
  - Fix oauth2 profile.
+ - Fix UTF8 in competition save.
  - If user from meta doesn't exist, create.
 
 0.31 2022-10-05T03:11:03+02:00
