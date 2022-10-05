@@ -17,6 +17,7 @@
  - Implement low level backend DB helper for deleting of section.
  - Improve section page logo.
  - Rewrite competition logos to thumbs.
+ - Rewrite save_section_category() backend DB helper to update_or_create().
 
 0.31 2022-10-05T03:11:03+02:00
  - Change login button title to better.
