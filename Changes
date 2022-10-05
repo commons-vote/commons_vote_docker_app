@@ -15,6 +15,7 @@
  - If user from meta doesn't exist, create.
  - Implement endpoing for removing of section.
  - Implement low level backend DB helper for deleting of section.
+ - Implement section update.
  - Improve section page logo.
  - Rewrite competition logos to thumbs.
  - Rewrite save_section_category() backend DB helper to update_or_create().
