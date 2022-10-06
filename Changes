@@ -20,6 +20,7 @@
  - Implement section update.
  - Improve section page logo.
  - Rewrite competition logos to thumbs.
+ - Rewrite Data::Commons::Vote::Image to inherited Data::Commons::Image.
  - Rewrite save_section_category() backend DB helper to update_or_create().
  - Rewrite save_image() and save_section_image() backend DB helpers to
    update_or_create().
