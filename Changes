@@ -20,6 +20,7 @@
  - Implement low level backend DB helper for deleting of section.
  - Implement section update.
  - Improve section page logo.
+ - Improve Tags::HTML::Image object.
  - Rewrite competition logos to thumbs.
  - Rewrite Data::Commons::Vote::Image to inherited Data::Commons::Image.
  - Rewrite handling with new Data::Commons::Image in DB backend.
