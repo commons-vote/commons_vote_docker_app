@@ -1,4 +1,5 @@
 0.34
+ - Fix UTF8 in loading of person.
 
 0.33 2022-10-06T23:31:38+02:00
  - Fix load with new Data::Commons::Image.
