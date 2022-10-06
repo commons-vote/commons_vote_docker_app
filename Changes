@@ -1,4 +1,5 @@
 0.33
+ - Fix load with new Data::Commons::Image.
 
 0.32 2022-10-06T18:09:20+02:00
  - Add $attr_hr argument for fetch_section_images() in DB backend.
