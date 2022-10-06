@@ -16,8 +16,8 @@
  - Fix UTF8 in section logo.
  - Fix update of competition.
  - If user from meta doesn't exist, create.
- - Implement endpoing for removing of section.
  - Implement endpoint for images view.
+ - Implement endpoint for removing of section.
  - Implement low level backend DB helper for deleting of section.
  - Implement section update.
  - Improve section page logo.
