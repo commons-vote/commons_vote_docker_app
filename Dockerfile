@@ -62,8 +62,6 @@ RUN cpanm perl_modules/Schema-Commons-Vote-0.01.tar.gz
 RUN cpanm perl_modules/Schema-Data-Commons-Vote-0.01.tar.gz
 RUN cpanm perl_modules/Data-HTML-Textarea-0.01.tar.gz
 RUN cpanm perl_modules/Tags-HTML-Image-0.01.tar.gz
-RUN cpanm perl_modules/Data-Image-0.01.tar.gz
-RUN cpanm perl_modules/Data-Commons-Image-0.01.tar.gz
 RUN cpanm perl_modules/Data-Commons-Vote-0.01.tar.gz
 RUN cpanm perl_modules/Tags-HTML-Commons-Vote-0.01.tar.gz
 RUN cpanm perl_modules/Tags-HTML-Image-Grid-0.01.tar.gz
