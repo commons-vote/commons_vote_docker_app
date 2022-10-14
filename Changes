@@ -2,6 +2,7 @@
  - Add nbsp between login name and logout link.
  - Add section name to images page.
  - Move Data::Image and Data::Commons::Image to CPAN.
+ - Move Tags::HTML::Pager to CPAN.
 
 0.35 2022-10-07T01:01:19+02:00
  - Add count_section_images().
