@@ -1,4 +1,5 @@
 0.36
+ - Add checks for data objects in save routines.
  - Add default data for log_type.
  - Add log tables to DB.
  - Add nbsp between login name and logout link.
