@@ -1,5 +1,6 @@
 0.36
  - Add checks for data objects in save routines.
+ - Add competition creating and updating log record.
  - Add created_at to Log object.
  - Add data object for a element.
  - Add db backend helpers for log records.
