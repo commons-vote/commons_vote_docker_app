@@ -1,4 +1,5 @@
 0.36
+ - Add button to view competition logs.
  - Add checks for data objects in save routines.
  - Add competition creating and updating log record.
  - Add created_at to Log object.
