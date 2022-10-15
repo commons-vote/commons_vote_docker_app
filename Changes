@@ -16,6 +16,7 @@
  - Add Tags::HTML::Pre for log record.
  - Add Tags::HTML::Table::View for viewing of log records.
  - Add update_competition log type.
+ - Relete competition images before loading.
  - Fix loading process for handle issues and log process.
  - Implement delete_section_images().
  - Move Data::Image and Data::Commons::Image to CPAN.
