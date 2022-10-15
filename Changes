@@ -1,5 +1,6 @@
 0.36
  - Add checks for data objects in save routines.
+ - Add data object for a element.
  - Add default data for log_type.
  - Add handling with log records.
  - Add log tables to DB.
