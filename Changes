@@ -6,6 +6,7 @@
  - Add data object for a element.
  - Add db backend helpers for log records.
  - Add default data for log_type.
+ - Add delete_competition_images log type.
  - Add handling with log records.
  - Add log and logs pages.
  - Add log tables to DB.
