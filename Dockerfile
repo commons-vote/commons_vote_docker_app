@@ -72,6 +72,7 @@ RUN cpanm perl_modules/Activity-Commons-Vote-0.01.tar.gz
 RUN cpanm perl_modules/Tags-HTML-Container-0.01.tar.gz
 RUN cpanm perl_modules/Data-HTML-A-0.01.tar.gz
 RUN cpanm perl_modules/Tags-HTML-Table-View-0.01.tar.gz
+RUN cpanm perl_modules/Tags-HTML-Pre-0.01.tar.gz
 RUN cpanm perl_modules/Plack-App-Restricted-0.01.tar.gz
 RUN cpanm perl_modules/Plack-App-Commons-Vote-0.01.tar.gz
 
