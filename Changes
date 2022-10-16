@@ -18,6 +18,7 @@
  - Add update_competition log type.
  - Relete competition images before loading.
  - Fix loading process for handle issues and log process.
+ - Fix Tags::HTML::Commons::Vote::Competition test.
  - Implement delete_section_images().
  - Move Data::Image and Data::Commons::Image to CPAN.
  - Move Tags::HTML::Image::Grid to CPAN.
