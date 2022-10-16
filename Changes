@@ -1,4 +1,5 @@
 0.37
+ - Add license table to DB.
  - Add license to image DB table.
  - Implement image_structured_data() in Fetcher.
  - License could be null in DB.
