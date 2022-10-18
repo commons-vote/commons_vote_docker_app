@@ -2,10 +2,12 @@
  - Add license table to DB.
  - Add license to image DB table.
  - Add license to image in Backend.
+ - Add license helpers to Backend.
  - Add license_obj to Data::Commons::Vote::Image object.
  - Add short_name to license table in DB.
  - Add wd_qid column to competition DB table.
  - Add wd_qid parameter to Competition data object.
+ - Add wd_qid to Backend handling with competition.
  - Handle item which is not available.
  - Implement image_structured_data() in Fetcher.
  - Improve schema with license in image.
