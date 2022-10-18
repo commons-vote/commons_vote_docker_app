@@ -5,6 +5,7 @@
  - Add license helpers to Backend.
  - Add license_obj to Data::Commons::Vote::Image object.
  - Add short_name to license table in DB.
+ - Add theme and theme_images tables to schema.
  - Add wd_qid column to competition DB table.
  - Add wd_qid parameter to Competition data object.
  - Add wd_qid to competition and competition_form pages.
