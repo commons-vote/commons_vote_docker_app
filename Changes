@@ -12,6 +12,7 @@
  - Implement image_structured_data() in Fetcher.
  - Improve schema with license in image.
  - License could be null in DB.
+ - Save and update wd_qid in competition form.
  - Store license to license and image tables in DB.
  - Update competiton only if i am maintainer of competition.
 
