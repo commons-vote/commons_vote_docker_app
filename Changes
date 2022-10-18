@@ -8,6 +8,7 @@
  - Add Theme and ThemeImages data objects.
  - Add theme and theme_images backend helpers.
  - Add theme and theme_images tables to schema.
+ - Add theme_form page and theme_save action.
  - Add wd_qid column to competition DB table.
  - Add wd_qid parameter to Competition data object.
  - Add wd_qid to competition and competition_form pages.
