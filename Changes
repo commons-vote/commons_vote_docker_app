@@ -7,6 +7,7 @@
  - Implement image_structured_data() in Fetcher.
  - Improve schema with license in image.
  - License could be null in DB.
+ - Store license to license and image tables in DB.
 
 0.36 2022-10-16T12:20:19+02:00
  - Add button to view competition logs.
