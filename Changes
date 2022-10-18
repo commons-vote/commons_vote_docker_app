@@ -3,6 +3,7 @@
  - Add license to image DB table.
  - Add license to image in Backend.
  - Add short_name to license table in DB.
+ - Handle item which is not available.
  - Implement image_structured_data() in Fetcher.
  - License could be null in DB.
 
