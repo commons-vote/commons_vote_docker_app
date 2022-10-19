@@ -15,6 +15,7 @@
  - Add wd_qid parameter to Competition data object.
  - Add wd_qid to competition and competition_form pages.
  - Add wd_qid to Backend handling with competition.
+ - Date of creation for image in DB could be null.
  - Handle item which is not available.
  - Implement image_structured_data() in Fetcher.
  - Implement login page.
@@ -23,6 +24,7 @@
  - Move code for image loading to load_commons_image() in Load.
  - Save and update wd_qid in competition form.
  - Store license to license and image tables in DB.
+ - Theme shortcut is unique key in DB.
  - Update competiton only if i am maintainer of competition.
 
 0.36 2022-10-16T12:20:19+02:00
