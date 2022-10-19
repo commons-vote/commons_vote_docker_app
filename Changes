@@ -15,6 +15,7 @@
  - Add wd_qid parameter to Competition data object.
  - Add wd_qid to competition and competition_form pages.
  - Add wd_qid to Backend handling with competition.
+ - Fix uploader in Backend.
  - Date of creation for image in DB could be null.
  - Handle item which is not available.
  - Implement image_structured_data() in Fetcher.
