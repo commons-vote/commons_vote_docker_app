@@ -6,6 +6,7 @@
  - Add license to image in Backend.
  - Add license helpers to Backend.
  - Add license_obj to Data::Commons::Vote::Image object.
+ - Add login_link parameter to login app.
  - Add short_name to license table in DB.
  - Add Theme and ThemeImages data objects.
  - Add theme and theme_images backend helpers.
