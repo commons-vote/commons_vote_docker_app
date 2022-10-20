@@ -19,6 +19,7 @@
  - Add wd_qid to Backend handling with competition.
  - Fetch author name from Wikidata label if exists.
  - First version of login app.
+ - Fix image tests with uploader in Data object.
  - Fix uploader in Backend.
  - Date of creation for image in DB could be null.
  - Handle item which is not available.
