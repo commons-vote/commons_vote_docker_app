@@ -20,6 +20,7 @@
  - Handle item which is not available.
  - Implement image_structured_data() in Fetcher.
  - Implement login page.
+ - Improve load image activity.
  - Improve schema with license in image.
  - License could be null in DB.
  - Move code for image loading to load_commons_image() in Load.
