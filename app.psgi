@@ -5,7 +5,7 @@ use warnings;
 
 use Error::Pure qw(err);
 use Plack::App::Commons::Vote;
-use Plack::App::Login;
+use Plack::App::Commons::Vote::Login;
 use Plack::Builder;
 use Plack::Middleware::Session;
 use Plack::Middleware::Auth::OAuth2;
@@ -66,9 +66,11 @@ my $app = Plack::App::Commons::Vote->new(
 builder {
 	enable 'Session';
 	enable 'Auth::OAuth2',
-		'app_login' => Plack::App::Login->new(
-			'login_title' => 'Login with OAuth2',
-			'tags' => Tags::Output::Raw->new,
+		'app_login' => Plack::App::Commons::Vote::Login->new(
+			'backend' => $backend,
+			'css' => $css,
+			'tags' => $tags,
+			'theme' => 'cwp',
 		),
 		'app_login_url' => sub {
 			my ($app_login, $url) = @_;

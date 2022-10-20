@@ -33,6 +33,7 @@
  - Set uploader_id to could be NULL in image table.
  - Smaller login backgroung image size and better author string.
  - Store license to license and image tables in DB.
+ - Switch login app to Plack::App::Commons::Vote::Login.
  - Theme shortcut is unique key in DB.
  - Update competiton only if i am maintainer of competition.
  - Uploader is not required in Image data object.
