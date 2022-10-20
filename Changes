@@ -1,4 +1,5 @@
 0.37
+ - Add author to Image data object in Backend.
  - Add fetch_theme() and fetch_theme_by_shortcut() methods to Backend.
  - Add license table to DB.
  - Add license to image DB table.
