@@ -1,4 +1,4 @@
-0.39
+0.39 2022-10-21T02:35:07+02:00
  - Fix login_link parameter in Tags::HTML::Commons::Vote::Login.
 
 0.38 2022-10-21T02:17:23+02:00
