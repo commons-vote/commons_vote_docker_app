@@ -26,6 +26,7 @@ RUN apt-get install -y libdbix-class-perl
 RUN apt-get install -y libclone-perl
 RUN apt-get install -y libdigest-sha-perl
 RUN apt-get install -y libfile-share-perl
+RUN apt-get install -y libhtml-strip-perl
 RUN apt-get install -y libio-captureoutput-perl
 RUN apt-get install -y libio-string-perl
 RUN apt-get install -y libjson-xs-perl

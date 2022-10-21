@@ -1,4 +1,5 @@
 0.41
+ - Install HTML::Strip debian package.
 
 0.40 2022-10-21T17:57:31+02:00
  - Add count_competition() method to backend.
