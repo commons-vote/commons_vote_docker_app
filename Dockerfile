@@ -9,9 +9,11 @@ ARG DB_PASS
 ENV DEBUG=0
 
 RUN apt-get update 
+RUN apt-get install -y gcc
 RUN apt-get install -y make
 RUN apt-get install -y cpanminus
 RUN apt-get install -y libcapture-tiny-perl
+RUN apt-get install -y libclass-accessor-lite-perl
 RUN apt-get install -y libdata-formvalidator-perl
 
 # XXX provisional
@@ -23,25 +25,33 @@ RUN apt-get install -y libdbd-pg-perl
 RUN apt-get install -y libdbd-sqlite3-perl
 RUN apt-get install -y libdbi-perl
 RUN apt-get install -y libdbix-class-perl
+RUN apt-get install -y libdevel-checkcompiler-perl
 RUN apt-get install -y libclone-perl
 RUN apt-get install -y libdigest-sha-perl
 RUN apt-get install -y libfile-share-perl
+RUN apt-get install -y libguard-perl
 RUN apt-get install -y libhtml-strip-perl
 RUN apt-get install -y libio-captureoutput-perl
 RUN apt-get install -y libio-string-perl
 RUN apt-get install -y libjson-xs-perl
+RUN apt-get install -y libipc-signal-perl
 RUN apt-get install -y liblwp-authen-oauth2-perl
 RUN apt-get install -y libmediawiki-api-perl
 RUN apt-get install -y libnet-oauth-perl
 RUN apt-get install -y libperl6-slurp-perl
 RUN apt-get install -y libplack-middleware-session-perl
+RUN apt-get install -y libproc-wait3-perl
 RUN apt-get install -y libreadonly-perl
+RUN apt-get install -y libserver-starter-perl
+RUN apt-get install -y libsignal-mask-perl
 RUN apt-get install -y libsub-uplevel-perl
+RUN apt-get install -y libstream-buffered-perl
 RUN apt-get install -y libtest-exception-perl
 RUN apt-get install -y libtest-fatal-perl
 RUN apt-get install -y libtest-mockobject-perl
 RUN apt-get install -y libtest-nowarnings-perl
 RUN apt-get install -y libtest-output-perl
+RUN apt-get install -y libtest-requires-perl
 RUN apt-get install -y libtest-warn-perl
 RUN apt-get install -y libtest-warnings-perl
 RUN apt-get install -y libtext-ansi-util-perl
@@ -56,6 +66,7 @@ RUN cpanm Tags::HTML::Form
 RUN cpanm Tags::Output::Raw
 RUN cpanm Tags::Output::Indent
 RUN cpanm LWP::Authen::OAuth2::ServiceProvider::Wikimedia
+RUN cpanm Plack::Handler::Gazelle
 RUN mkdir /perl_modules
 COPY perl_modules/ /perl_modules
 RUN cpanm perl_modules/Schema-Commons-Vote-0.01.tar.gz
