@@ -5,6 +5,7 @@
  - Improve bottom right note colors in Login app.
  - In image page print thumb with 1630 width and fit to page.
  - More parallel processes of web app.
+ - Strip HTML in comment.
 
 0.39 2022-10-21T02:35:07+02:00
  - Fix login_link parameter in Tags::HTML::Commons::Vote::Login.
