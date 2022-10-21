@@ -3,6 +3,7 @@
  - Add fit to image option for image.
  - Check access for competition and competition_form pages.
  - Improve bottom right note colors in Login app.
+ - In image page print thumb with 1630 width and fit to page.
  - More parallel processes of web app.
 
 0.39 2022-10-21T02:35:07+02:00
