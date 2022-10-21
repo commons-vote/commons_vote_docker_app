@@ -50,7 +50,6 @@ RUN apt-get install -y libyaml-perl
 RUN cpanm CSS::Struct::Output::Indent
 RUN cpanm CSS::Struct::Output::Raw
 RUN cpanm Error::Pure
-RUN cpanm Plack::App::Login
 RUN cpanm Plack::Component::Tags::HTML
 RUN cpanm Plack::Middleware::Auth::OAuth2
 RUN cpanm Tags::HTML::Form

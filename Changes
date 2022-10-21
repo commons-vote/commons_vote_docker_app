@@ -1,4 +1,5 @@
 0.42
+ - Don't install Plack::App::Login, not used.
 
 0.41 2022-10-21T18:05:11+02:00
  - Install HTML::Strip debian package.
