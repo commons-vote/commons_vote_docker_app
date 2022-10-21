@@ -1,5 +1,6 @@
 0.40
  - Add count_competition() method to backend.
+ - Check access for competition and competition_form pages.
  - Improve bottom right note colors in Login app.
  - More parallel processes of web app.
 
