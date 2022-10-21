@@ -1,4 +1,4 @@
-0.40
+0.40 2022-10-21T17:57:31+02:00
  - Add count_competition() method to backend.
  - Add fit to image option for image.
  - Check access for competition and competition_form pages.
