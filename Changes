@@ -1,5 +1,6 @@
 0.43
  - Add data objects for competition validations.
+ - Add DB tables for competition validations.
  - Fix script and style elements.
 
 0.42 2022-10-21T21:24:46+02:00
