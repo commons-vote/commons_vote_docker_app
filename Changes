@@ -1,3 +1,5 @@
+0.43
+
 0.42 2022-10-21T21:24:46+02:00
  - Don't install Plack::App::Login, not used.
  - Fix Gazelle dependencies.
