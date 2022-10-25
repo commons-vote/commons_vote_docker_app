@@ -1,4 +1,5 @@
 0.43
+ - Fix script and style elements.
 
 0.42 2022-10-21T21:24:46+02:00
  - Don't install Plack::App::Login, not used.

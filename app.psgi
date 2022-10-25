@@ -38,8 +38,8 @@ my $backend = Backend::DB::Commons::Vote->new(
 );
 my ($css, $tags);
 my %tags = (
-	'no_simple' => ['textarea'],
-	'preserved' => ['pre', 'style', 'textarea'],
+	'no_simple' => ['script', 'textarea'],
+	'preserved' => ['pre', 'script', 'style', 'textarea'],
 	'xml' => 1,
 );
 if ($debug) {
