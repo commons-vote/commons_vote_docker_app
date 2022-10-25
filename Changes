@@ -3,6 +3,7 @@
  - Add data objects for competition validations.
  - Add DB tables for competition validations.
  - Add initialization data for validations.
+ - Fix tests in data object dist.
  - Fix script and style elements.
 
 0.42 2022-10-21T21:24:46+02:00
