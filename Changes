@@ -1,4 +1,5 @@
 0.43
+ - Add backend methods for validations.
  - Add data objects for competition validations.
  - Add DB tables for competition validations.
  - Add initialization data for validations.
