@@ -3,6 +3,7 @@
  - Add data objects for competition validations.
  - Add DB tables for competition validations.
  - Add initialization data for validations.
+ - Add tags html pages for competition validations.
  - Fix tests in data object dist.
  - Fix script and style elements.
 
