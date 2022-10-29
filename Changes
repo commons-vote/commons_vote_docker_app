@@ -4,8 +4,10 @@
  - Add DB tables for competition validations.
  - Add initialization data for validations.
  - Add tags html pages for competition validations.
- - Fix tests in data object dist.
+ - Implement update_person() method in backend.
+ - Fix image_db2obj() method in backend.
  - Fix script and style elements.
+ - Fix tests in data object dist.
 
 0.42 2022-10-21T21:24:46+02:00
  - Don't install Plack::App::Login, not used.
