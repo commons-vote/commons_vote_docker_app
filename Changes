@@ -10,6 +10,8 @@
  - Fix logging in case when user was created as uploader.
  - Fix script and style elements.
  - Fix tests in data object dist.
+ - Remove competition images and date of load in case of adding/updating of new
+   section.
  - Rewrite validation to full support in application.
 
 0.42 2022-10-21T21:24:46+02:00
