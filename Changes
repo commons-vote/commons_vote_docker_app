@@ -1,4 +1,4 @@
-0.44
+0.44 2022-10-29T17:12:48+02:00
  - Back plack handler to trivial.
  - Fix minimal version of Plack::Component::Tags::HTML.
 
