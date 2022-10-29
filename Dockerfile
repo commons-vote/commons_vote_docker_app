@@ -67,6 +67,7 @@ RUN cpanm Tags::Output::Raw
 RUN cpanm Tags::Output::Indent
 RUN cpanm LWP::Authen::OAuth2::ServiceProvider::Wikimedia
 RUN cpanm Plack::Handler::Gazelle
+RUN cpanm Data::HTML::Form
 RUN mkdir /perl_modules
 COPY perl_modules/ /perl_modules
 RUN cpanm perl_modules/Schema-Commons-Vote-0.01.tar.gz
