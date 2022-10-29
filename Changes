@@ -1,5 +1,6 @@
 0.47
  - Fix update_person to better version in backend.
+ - Fix updating of person after login.
 
 0.46 2022-10-29T18:18:23+02:00
  - Fix update of person after login.
