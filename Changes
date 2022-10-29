@@ -8,6 +8,7 @@
  - Fix image_db2obj() method in backend.
  - Fix script and style elements.
  - Fix tests in data object dist.
+ - Rewrite validation to full support in application.
 
 0.42 2022-10-21T21:24:46+02:00
  - Don't install Plack::App::Login, not used.
