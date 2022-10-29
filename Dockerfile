@@ -91,4 +91,4 @@ RUN cpanm perl_modules/Plack-App-Commons-Vote-0.01.tar.gz
 COPY app.psgi /
 RUN mkdir /web_root
 
-ENTRYPOINT plackup -s Gazelle --max-reqs-per-child 50000 /app.psgi
+ENTRYPOINT plackup /app.psgi
