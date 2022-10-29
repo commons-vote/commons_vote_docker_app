@@ -1,5 +1,6 @@
 0.44
  - Back plack handler to trivial.
+ - Fix minimal version of Plack::Component::Tags::HTML.
 
 0.43 2022-10-29T16:45:26+02:00
  - Add backend methods for validations.
