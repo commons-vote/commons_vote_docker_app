@@ -1,4 +1,4 @@
-0.43
+0.43 2022-10-29T16:45:26+02:00
  - Add backend methods for validations.
  - Add count_competition_sections() method to backend.
  - Add data objects for competition validations.
@@ -17,8 +17,8 @@
  - Fix tests in data object dist.
  - Fix visibility of options in CompetitionValidation
  - Fix visibility of Validation button in competition.
- - Remove competition images and date of load in case of adding/updating of new
-   section.
+ - Remove competition images and date of load in case of adding/updating of
+   new section.
  - Rewrite validation to full support in application.
 
 0.42 2022-10-21T21:24:46+02:00
