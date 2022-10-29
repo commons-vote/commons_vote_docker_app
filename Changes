@@ -1,3 +1,5 @@
+0.44
+
 0.43 2022-10-29T16:45:26+02:00
  - Add backend methods for validations.
  - Add count_competition_sections() method to backend.
