@@ -6,6 +6,7 @@
  - Add tags html pages for competition validations.
  - Delete dt_loaded_at in competition if removing last section.
  - Implement update_person() method in backend.
+ - Log type to 50 characters.
  - Fix image_db2obj() method in backend.
  - Fix logging in case when user was created as uploader.
  - Fix script and style elements.
