@@ -1,4 +1,4 @@
-0.47
+0.47 2022-10-29T18:51:26+02:00
  - Fix update_person to better version in backend.
  - Fix updating of person after login.
 
