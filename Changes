@@ -14,6 +14,8 @@
  - Fix logging in case when user was created as uploader.
  - Fix script and style elements.
  - Fix tests in data object dist.
+ - Fix visibility of options in CompetitionValidation
+ - Fix visibility of Validation button in competition.
  - Remove competition images and date of load in case of adding/updating of new
    section.
  - Rewrite validation to full support in application.
