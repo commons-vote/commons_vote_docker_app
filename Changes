@@ -1,4 +1,6 @@
 0.48
+ - Add id to PersonRole data object.
+ - Add person_roles() method to Competition data object.
  - Add roles to application.
  - Add roles to backend.
  - Fix constraints in person_role table.
