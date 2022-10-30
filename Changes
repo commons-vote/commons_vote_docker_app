@@ -1,5 +1,6 @@
 0.48
  - Add roles to application.
+ - Add roles to backend.
  - Fix constraints in person_role table.
  - Implement user_exists() method to fetcher.
  - New initialization data for db.
