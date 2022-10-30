@@ -1,4 +1,5 @@
 0.48
+ - Add roles to application.
  - Implement user_exists() method to fetcher.
 
 0.47 2022-10-29T18:51:26+02:00
