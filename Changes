@@ -4,6 +4,7 @@
  - Fix constraints in person_role table.
  - Implement user_exists() method to fetcher.
  - New initialization data for db.
+ - Simplify code for get person from db.
  - wm_username is required for commons.vote app.
 
 0.47 2022-10-29T18:51:26+02:00
