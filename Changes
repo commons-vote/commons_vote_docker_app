@@ -3,6 +3,7 @@
  - Add person_roles() method to Competition data object.
  - Add roles to application.
  - Add roles to backend.
+ - Add roles to pages.
  - Fix constraints in person_role table.
  - Implement user_exists() method to fetcher.
  - New initialization data for db.
