@@ -3,6 +3,7 @@
  - Add ValidationBad data object.
  - Fix requirements for PersonRole data object.
  - Fix view of competition on which i have admin rights.
+ - Handle validation_bad in backend.
  - Load competition only if sections exists.
  - Save bad validations to db in validation activity.
 
