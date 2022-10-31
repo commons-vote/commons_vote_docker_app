@@ -4,6 +4,7 @@
  - Add validation result to image grid view.
  - Add validation_bad table to db.
  - Add ValidationBad data object.
+ - Add view images button to competition.
  - Fix removing of validation.
  - Fix requirements for PersonRole data object.
  - Fix view of competition on which i have admin rights.
