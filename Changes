@@ -10,6 +10,7 @@
  - Remove obsolete information from competition table in schema.
  - Rewrite table name for voting types in initialization data.
  - Rewrite vote_type to voting_type in schema.
+ - Update backend.
  - Update plack app.
 
 0.49 2022-10-31T11:43:08+01:00
