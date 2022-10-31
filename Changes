@@ -1,8 +1,12 @@
 0.50
+ - Add CompetitionVoting page.
+ - Add CompetitionVotingForm page.
  - Add log types for new validations in initialization data.
  - Add new validations in initialization data.
- - Rewrite table name for voting types in initialization data.
+ - Add voting types to Competition page.
  - Rename option for smaller dimension in initialization data.
+ - Remove obsolete information from Competition in Competition page.
+ - Rewrite table name for voting types in initialization data.
 
 0.49 2022-10-31T11:43:08+01:00
  - Add competition_images page and after validation move to this page.
