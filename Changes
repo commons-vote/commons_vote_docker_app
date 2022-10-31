@@ -1,4 +1,5 @@
 0.49
+ - Add validation_bad table to db.
  - Add ValidationBad data object.
  - Fix requirements for PersonRole data object.
  - Fix view of competition on which i have admin rights.
