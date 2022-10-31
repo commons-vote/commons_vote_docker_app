@@ -13,7 +13,7 @@ use Readonly;
 use Schema::Commons::Vote;
 use Tags::Output::Raw;
 
-our $VERSION = 0.48;
+our $VERSION = 0.49;
 
 my $debug = $ENV{'DEBUG'} || 0;
 
