@@ -10,6 +10,7 @@
  - Remove obsolete information from competition table in schema.
  - Rewrite table name for voting types in initialization data.
  - Rewrite vote_type to voting_type in schema.
+ - Update activities.
  - Update backend.
  - Update data objects.
  - Update plack app.
