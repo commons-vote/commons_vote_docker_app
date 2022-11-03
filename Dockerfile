@@ -79,14 +79,14 @@ RUN cpanm perl_modules/Tags-HTML-Login-Register-0.01.tar.gz
 RUN cpanm perl_modules/Commons-Vote-Fetcher-0.01.tar.gz
 RUN cpanm perl_modules/Backend-DB-0.01.tar.gz
 RUN cpanm perl_modules/Backend-DB-Commons-Vote-0.01.tar.gz
-RUN cpanm -v perl_modules/Wikibase-Datatype-Query-0.01.tar.gz
+RUN cpanm perl_modules/Wikibase-Datatype-Query-0.01.tar.gz
 RUN cpanm perl_modules/Activity-Commons-Vote-0.01.tar.gz
 RUN cpanm perl_modules/Tags-HTML-Container-0.01.tar.gz
 RUN cpanm perl_modules/Data-HTML-A-0.01.tar.gz
 RUN cpanm perl_modules/Tags-HTML-Table-View-0.01.tar.gz
 RUN cpanm perl_modules/Tags-HTML-Pre-0.01.tar.gz
 RUN cpanm perl_modules/Plack-App-Restricted-0.01.tar.gz
-RUN cpanm -v perl_modules/Plack-App-Commons-Vote-0.01.tar.gz
+RUN cpanm perl_modules/Plack-App-Commons-Vote-0.01.tar.gz
 
 COPY static /
 
