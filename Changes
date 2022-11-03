@@ -1,6 +1,7 @@
 0.51
  - Add favicon.
  - Add link to Wikidata item.
+ - Add section to ValidationBad object.
  - Add section_id to validation_bad DB table.
  - Add space to HTML output.
  - Add support for Tags data in field in HTML table.
