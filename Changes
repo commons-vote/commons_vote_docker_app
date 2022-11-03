@@ -2,6 +2,7 @@
  - Add favicon.
  - Add link to Wikidata item.
  - Add space to HTML output.
+ - Add Wikibase::Datatype::Query class.
  - Implement simple CSS for HTML table.
  - Redirect to competition after section creation.
 
