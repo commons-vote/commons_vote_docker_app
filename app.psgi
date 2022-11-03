@@ -57,6 +57,7 @@ if ($debug) {
 my $app = Plack::App::Commons::Vote->new(
 	'css' => $css,
 	'backend' => $backend,
+	'favicon' => '/favicon.ico',
 	'lang' => 'ces',
 	'schema' => $schema,
 	'tags' => $tags,
@@ -81,6 +82,10 @@ builder {
 		'client_secret' => $ENV{'CLIENT_SECRET'},
 		'redirect_path' => 'oauth2_code',
 		'service_provider' => 'Wikimedia',
+	;
+	enable 'Static',
+		'path' => qr{^/favicon\.ico},
+		'root' => 'static/',
 	;
 	$app;
 };

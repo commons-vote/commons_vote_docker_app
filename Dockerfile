@@ -87,6 +87,8 @@ RUN cpanm perl_modules/Tags-HTML-Pre-0.01.tar.gz
 RUN cpanm perl_modules/Plack-App-Restricted-0.01.tar.gz
 RUN cpanm perl_modules/Plack-App-Commons-Vote-0.01.tar.gz
 
+COPY static /
+
 COPY app.psgi /
 RUN mkdir /web_root
 
