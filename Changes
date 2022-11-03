@@ -8,6 +8,7 @@
  - Add Wikibase::Datatype::Query class.
  - Implement simple CSS for HTML table.
  - Redirect to competition after section creation.
+ - Update activities.
  - Update backend.
  - Update Tags::HTML pages.
 
