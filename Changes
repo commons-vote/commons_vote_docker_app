@@ -9,6 +9,7 @@
  - Implement simple CSS for HTML table.
  - Redirect to competition after section creation.
  - Update backend.
+ - Update Tags::HTML pages.
 
 0.50 2022-11-01T01:10:54+01:00
  - Add CompetitionVoting page.
