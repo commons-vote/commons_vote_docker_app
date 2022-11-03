@@ -1,4 +1,5 @@
 0.52
+ - Fix wm_username utf8.
 
 0.51 2022-11-03T04:35:44+01:00
  - Add favicon.
