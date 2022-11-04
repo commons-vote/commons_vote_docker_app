@@ -1,4 +1,6 @@
 0.52
+ - Cleanup vote table in schema.
+ - CompetitionVoting has many votes in schema.
  - Fix wm_username utf8.
 
 0.51 2022-11-03T04:35:44+01:00
