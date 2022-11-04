@@ -1,3 +1,5 @@
+0.53
+
 0.52 2022-11-04T02:10:59+01:00
  - Cleanup vote table in schema.
  - CompetitionVoting has many votes in schema.
