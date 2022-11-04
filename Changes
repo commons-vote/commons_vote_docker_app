@@ -4,6 +4,7 @@
  - Fix favicon.
  - Fix wm_username utf8.
  - New version of Vote data object.
+ - Rewrite Tags::HTML vote page.
  - Update backend.
 
 0.51 2022-11-03T04:35:44+01:00
