@@ -3,6 +3,7 @@
  - CompetitionVoting has many votes in schema.
  - Fix favicon.
  - Fix wm_username utf8.
+ - New version of Vote data object.
  - Update backend.
 
 0.51 2022-11-03T04:35:44+01:00
