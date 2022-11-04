@@ -6,6 +6,7 @@
  - New version of Vote data object.
  - Rewrite Tags::HTML vote page.
  - Update backend.
+ - Update plack app.
 
 0.51 2022-11-03T04:35:44+01:00
  - Add favicon.
