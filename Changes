@@ -1,4 +1,4 @@
-0.53
+0.53 2022-11-06T09:05:02+01:00
  - Set production mode if not debug.
  - Update activities.
  - Update backend.
