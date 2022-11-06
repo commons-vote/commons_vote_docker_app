@@ -1,4 +1,5 @@
 0.56
+ - Fix access to vote_stats of non-existing competition.
  - Fix link to competition on main page.
 
 0.55 2022-11-06T11:51:04+01:00
