@@ -2,6 +2,7 @@
  - Add average count to stat page.
  - Fix access to vote_stats of non-existing competition.
  - Fix link to competition on main page.
+ - Fix voting stats (yes/no vs 0 .. X).
 
 0.55 2022-11-06T11:51:04+01:00
  - Enable accesslog in app.
