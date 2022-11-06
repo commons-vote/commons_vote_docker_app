@@ -1,4 +1,5 @@
 0.54
+ - Fix deployment plackup setup.
  - Rename app.psgi to commons-vote.psgi to better check of running process
    name.
 
