@@ -1,4 +1,4 @@
-0.59
+0.59 2022-11-07T00:57:57+01:00
  - Add link to vote_stats page.
  - Fix update of section.
  - Improve menu handling in plack app.
