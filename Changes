@@ -1,4 +1,6 @@
 0.54
+ - Rename app.psgi to commons-vote.psgi to better check of running process
+   name.
 
 0.53 2022-11-06T09:05:02+01:00
  - Set production mode if not debug.

@@ -90,7 +90,7 @@ RUN cpanm perl_modules/Plack-App-Commons-Vote-0.01.tar.gz
 
 COPY static /static
 
-COPY app.psgi /
+COPY commons-vote.psgi /
 RUN mkdir /web_root
 
-ENTRYPOINT plackup /app.psgi
+ENTRYPOINT plackup /commons-vote.psgi
