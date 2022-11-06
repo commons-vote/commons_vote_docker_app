@@ -1,4 +1,5 @@
 0.53
+ - Update backend.
 
 0.52 2022-11-04T02:10:59+01:00
  - Cleanup vote table in schema.
