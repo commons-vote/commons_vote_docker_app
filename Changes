@@ -1,4 +1,7 @@
 0.59
+ - Add link to vote_stats page.
+ - Fix update of section.
+ - Improve menu handling in plack app.
  - Improve menu process.
  - Update backend.
 
