@@ -65,6 +65,7 @@ my $app = Plack::App::Commons::Vote->new(
 )->to_app;
 
 builder {
+	enable 'AccessLog';
 	enable 'Session';
 	enable 'Auth::OAuth2',
 		'app_login' => Plack::App::Commons::Vote::Login->new(
