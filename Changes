@@ -1,5 +1,6 @@
 0.55
  - Enable accesslog in app.
+ - Fix cleanup of page load.
 
 0.54 2022-11-06T09:40:57+01:00
  - Fix cleaning of images_loaded_at.
