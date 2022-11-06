@@ -1,3 +1,5 @@
+0.59
+
 0.58 2022-11-06T14:59:25+01:00
  - Add information about no data in vote_stats page.
  - Add value for situation when no data exists in table view.
