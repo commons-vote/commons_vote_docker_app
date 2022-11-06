@@ -1,4 +1,4 @@
-0.56
+0.56 2022-11-06T13:44:38+01:00
  - Add average count to stat page.
  - Fix access to vote_stats of non-existing competition.
  - Fix link to competition on main page.
