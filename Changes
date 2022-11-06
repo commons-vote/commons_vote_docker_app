@@ -1,4 +1,5 @@
 0.53
+ - Set production mode if not debug.
  - Update activities.
  - Update backend.
  - Update data objects.

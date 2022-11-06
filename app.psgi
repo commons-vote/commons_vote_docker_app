@@ -16,6 +16,9 @@ use Tags::Output::Raw;
 our $VERSION = 0.53;
 
 my $debug = $ENV{'DEBUG'} || 0;
+if (! $debug) {
+	$ENV{'PLACK_ENV'} = 'production';
+}
 
 if (! exists $ENV{'CLIENT_ID'}) {
 	err "Environment variable 'CLIENT_ID' is missing.";
