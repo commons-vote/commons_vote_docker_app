@@ -6,6 +6,7 @@
  - Fix fetching of competition images for voting in backend.
  - Fix loading of competition images for voting.
  - Fix moving after saving of vote on last image.
+ - Improve voting page.
  - Rewrite of Tags::HTML::Image.
  - Update Vote page.
 
