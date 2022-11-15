@@ -1,5 +1,8 @@
 0.60
  - Add links to vote_stat (version with 5 columns).
+ - Fix cleanup of object.
+ - Fix loading of competition images for voting
+ - Fix moving after saving of vote on last image
  - Rewrite of Tags::HTML::Image.
  - Update Vote page.
 
