@@ -1,4 +1,4 @@
-0.60
+0.60 2022-11-15T15:33:13+01:00
  - Add links to vote_stat (version with 5 columns).
  - Fix cleanup of object.
  - Fix delete count in backend.
