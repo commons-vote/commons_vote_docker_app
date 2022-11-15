@@ -65,6 +65,7 @@ RUN cpanm Error::Pure
 RUN cpanm Plack::Component::Tags::HTML
 RUN cpanm Plack::Middleware::Auth::OAuth2
 RUN cpanm Tags::HTML::Form
+RUN cpanm Tags::HTML::Table::View
 RUN cpanm Tags::Output::Raw
 RUN cpanm Tags::Output::Indent
 RUN cpanm LWP::Authen::OAuth2::ServiceProvider::Wikimedia
@@ -84,7 +85,6 @@ RUN cpanm perl_modules/Wikibase-Datatype-Query-0.01.tar.gz
 RUN cpanm perl_modules/Activity-Commons-Vote-0.01.tar.gz
 RUN cpanm perl_modules/Tags-HTML-Container-0.01.tar.gz
 RUN cpanm perl_modules/Data-HTML-A-0.01.tar.gz
-RUN cpanm perl_modules/Tags-HTML-Table-View-0.01.tar.gz
 RUN cpanm perl_modules/Tags-HTML-Pre-0.01.tar.gz
 RUN cpanm perl_modules/Plack-App-Restricted-0.01.tar.gz
 RUN cpanm perl_modules/Plack-App-Commons-Vote-0.01.tar.gz
