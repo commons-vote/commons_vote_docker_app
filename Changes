@@ -1,4 +1,5 @@
 0.64
+ - Add "(0-?)" string to 'Number of votes' form.
  - Add count_competition_image_valid() method to backend.
  - Add unit to image size check.
 
