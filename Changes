@@ -2,6 +2,8 @@
  - Add "(0-?)" string to 'Number of votes' form.
  - Add count_competition_image_valid() method to backend.
  - Add unit to image size check.
+ - Fix saving of vote.
+ - Fix viewing of image in voting.
 
 0.63 2022-11-15T16:52:25+01:00
  - Fix cleanup and init in image page.
