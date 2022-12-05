@@ -1,4 +1,5 @@
 0.64
+ - Add unit to image size check.
 
 0.63 2022-11-15T16:52:25+01:00
  - Fix cleanup and init in image page.
