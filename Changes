@@ -1,4 +1,4 @@
-0.64
+0.64 2022-12-06T01:27:56+01:00
  - Add "(0-?)" string to 'Number of votes' form.
  - Add count_competition_image_valid() method to backend.
  - Add css_comment_height parameter to Image tags helper.
