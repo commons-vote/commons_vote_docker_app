@@ -3,6 +3,7 @@
  - Add count_competition_image_valid() method to backend.
  - Add css_comment_height parameter to Image tags helper.
  - Add css_comment_height parameter to Vote Image tags helper.
+ - Add red border to images which are not voted.
  - Add unit to image size check.
  - Fix next image id.
  - Fix saving of vote.
