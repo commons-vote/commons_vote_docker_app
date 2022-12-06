@@ -1,4 +1,5 @@
 0.65
+ - Fix border for not voted images.
 
 0.64 2022-12-06T01:27:56+01:00
  - Add "(0-?)" string to 'Number of votes' form.
